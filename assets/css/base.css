@@ -4,14 +4,14 @@
     font-family: 'Poppins', sans-serif; */
 
 /* Html & site organization */
-html{
+body{
     background-image: url(../assets/imgs/bg.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 100px 0 0;
 }
 
-body{
+.body-wrapper{
     display: grid;
     grid-template-columns: 1fr 2fr;
     max-width: 1300px;
